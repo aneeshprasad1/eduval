@@ -1,0 +1,487 @@
+[
+  {
+    "id": "math-alg-001",
+    "subject": "math",
+    "topic": "algebra",
+    "subtopic": "linear_equations",
+    "difficulty": 1,
+    "problem": "Solve for x: 3x + 7 = 22",
+    "correct_answer": "x = 5",
+    "solution_steps": ["3x + 7 = 22", "3x = 22 - 7", "3x = 15", "x = 15/3", "x = 5"],
+    "common_misconceptions": [
+      {"error": "x = 29/3", "explanation": "Adding 7 instead of subtracting"},
+      {"error": "x = 3", "explanation": "Dividing 22 by 7 then subtracting"}
+    ],
+    "scaffolding_hints": [
+      "What operation would isolate the term with x?",
+      "Can you subtract 7 from both sides?",
+      "Now what do you divide by?"
+    ],
+    "prerequisite_knowledge": ["arithmetic", "inverse_operations"]
+  },
+  {
+    "id": "math-alg-002",
+    "subject": "math",
+    "topic": "algebra",
+    "subtopic": "linear_equations",
+    "difficulty": 2,
+    "problem": "Solve for x: 2(x - 3) = 4x + 10",
+    "correct_answer": "x = -8",
+    "solution_steps": ["2x - 6 = 4x + 10", "2x - 4x = 10 + 6", "-2x = 16", "x = -8"],
+    "common_misconceptions": [
+      {"error": "x = -2", "explanation": "Forgetting to distribute the 2 to -3"},
+      {"error": "x = 8", "explanation": "Sign error when dividing by -2"}
+    ],
+    "scaffolding_hints": [
+      "First, distribute the 2 on the left side.",
+      "What do you get when you expand 2(x-3)?",
+      "Now collect x terms on one side."
+    ],
+    "prerequisite_knowledge": ["distributive_property", "inverse_operations"]
+  },
+  {
+    "id": "math-alg-003",
+    "subject": "math",
+    "topic": "algebra",
+    "subtopic": "quadratic_equations",
+    "difficulty": 2,
+    "problem": "Factor and solve: x² + 5x + 6 = 0",
+    "correct_answer": "x = -2 or x = -3",
+    "solution_steps": ["x² + 5x + 6 = 0", "(x + 2)(x + 3) = 0", "x + 2 = 0 or x + 3 = 0", "x = -2 or x = -3"],
+    "common_misconceptions": [
+      {"error": "x = 2, x = 3", "explanation": "Forgetting to negate the factors"},
+      {"error": "x = -6, x = -1", "explanation": "Wrong factor pair for 6"}
+    ],
+    "scaffolding_hints": [
+      "What two numbers multiply to 6 and add to 5?",
+      "Try listing factor pairs of 6: (1,6), (2,3).",
+      "Once factored, set each factor equal to zero."
+    ],
+    "prerequisite_knowledge": ["factoring", "zero_product_property"]
+  },
+  {
+    "id": "math-alg-004",
+    "subject": "math",
+    "topic": "algebra",
+    "subtopic": "quadratic_equations",
+    "difficulty": 3,
+    "problem": "Solve using the quadratic formula: 2x² - 3x - 5 = 0",
+    "correct_answer": "x = 5/2 or x = -1",
+    "solution_steps": ["a=2, b=-3, c=-5", "x = (3 ± √(9+40))/4", "x = (3 ± 7)/4", "x = 10/4 = 5/2 or x = -4/4 = -1"],
+    "common_misconceptions": [
+      {"error": "x = (3 ± √(9-40))/4", "explanation": "Using b²-4ac with wrong sign for c"},
+      {"error": "x = (-3 ± 7)/4", "explanation": "Using -b incorrectly when b is already negative"}
+    ],
+    "scaffolding_hints": [
+      "Identify a, b, and c from the standard form.",
+      "What is the discriminant b² - 4ac?",
+      "Careful with the sign of b in the formula."
+    ],
+    "prerequisite_knowledge": ["quadratic_formula", "discriminant"]
+  },
+  {
+    "id": "math-alg-005",
+    "subject": "math",
+    "topic": "algebra",
+    "subtopic": "systems_of_equations",
+    "difficulty": 2,
+    "problem": "Solve the system: y = 2x + 1 and y = -x + 7",
+    "correct_answer": "x = 2, y = 5",
+    "solution_steps": ["2x + 1 = -x + 7", "3x = 6", "x = 2", "y = 2(2) + 1 = 5"],
+    "common_misconceptions": [
+      {"error": "x = 6", "explanation": "Forgetting to combine x terms properly"},
+      {"error": "y = 2x + 1 = 5, so x = 5", "explanation": "Confusing y value with x"}
+    ],
+    "scaffolding_hints": [
+      "Since both expressions equal y, what can you set equal to each other?",
+      "Solve for x first, then substitute back."
+    ],
+    "prerequisite_knowledge": ["substitution_method", "linear_equations"]
+  },
+  {
+    "id": "math-alg-006",
+    "subject": "math",
+    "topic": "algebra",
+    "subtopic": "inequalities",
+    "difficulty": 2,
+    "problem": "Solve and graph: -2x + 3 > 7",
+    "correct_answer": "x < -2",
+    "solution_steps": ["-2x + 3 > 7", "-2x > 4", "x < -2 (flip inequality when dividing by negative)"],
+    "common_misconceptions": [
+      {"error": "x > -2", "explanation": "Forgetting to flip the inequality sign when dividing by a negative"},
+      {"error": "x < 2", "explanation": "Sign error in the division"}
+    ],
+    "scaffolding_hints": [
+      "Isolate x step by step.",
+      "What happens to the inequality sign when you divide by a negative number?"
+    ],
+    "prerequisite_knowledge": ["inequalities", "inverse_operations"]
+  },
+  {
+    "id": "math-alg-007",
+    "subject": "math",
+    "topic": "algebra",
+    "subtopic": "exponents",
+    "difficulty": 2,
+    "problem": "Simplify: (2x³y²)² · (3xy⁴)",
+    "correct_answer": "12x⁷y⁸",
+    "solution_steps": ["(2x³y²)² = 4x⁶y⁴", "4x⁶y⁴ · 3xy⁴ = 12x⁷y⁸"],
+    "common_misconceptions": [
+      {"error": "6x⁷y⁸", "explanation": "Squaring 2 to get 4 but then multiplying 4·3 wrong"},
+      {"error": "12x⁶y⁸", "explanation": "Forgetting to add the exponent of x from the second term"}
+    ],
+    "scaffolding_hints": [
+      "First apply the power rule to (2x³y²)².",
+      "Remember: (ab)² = a²b². Apply to each factor.",
+      "Then multiply the results using the product rule for exponents."
+    ],
+    "prerequisite_knowledge": ["power_rule", "product_rule_exponents"]
+  },
+  {
+    "id": "math-alg-008",
+    "subject": "math",
+    "topic": "algebra",
+    "subtopic": "functions",
+    "difficulty": 2,
+    "problem": "Given f(x) = x² - 4x + 3, find f(5) and the vertex of the parabola.",
+    "correct_answer": "f(5) = 8; vertex at (2, -1)",
+    "solution_steps": ["f(5) = 25 - 20 + 3 = 8", "vertex x = -b/2a = 4/2 = 2", "f(2) = 4 - 8 + 3 = -1", "vertex = (2, -1)"],
+    "common_misconceptions": [
+      {"error": "vertex at (-2, -1)", "explanation": "Sign error in -b/2a"},
+      {"error": "vertex at (2, 1)", "explanation": "Arithmetic error computing f(2)"}
+    ],
+    "scaffolding_hints": [
+      "For f(5), just substitute 5 for x.",
+      "The vertex x-coordinate is -b/(2a). What are a and b?",
+      "Once you have the x-coordinate, plug it back in for y."
+    ],
+    "prerequisite_knowledge": ["function_evaluation", "vertex_formula"]
+  },
+  {
+    "id": "math-geo-001",
+    "subject": "math",
+    "topic": "geometry",
+    "subtopic": "triangles",
+    "difficulty": 1,
+    "problem": "A right triangle has legs of length 3 and 4. What is the hypotenuse?",
+    "correct_answer": "5",
+    "solution_steps": ["c² = a² + b²", "c² = 9 + 16 = 25", "c = 5"],
+    "common_misconceptions": [
+      {"error": "7", "explanation": "Adding the legs directly instead of using Pythagorean theorem"},
+      {"error": "√7", "explanation": "Subtracting instead of adding under the square root"}
+    ],
+    "scaffolding_hints": [
+      "What theorem relates the sides of a right triangle?",
+      "Write out a² + b² = c² with the given values."
+    ],
+    "prerequisite_knowledge": ["pythagorean_theorem", "square_roots"]
+  },
+  {
+    "id": "math-geo-002",
+    "subject": "math",
+    "topic": "geometry",
+    "subtopic": "triangles",
+    "difficulty": 2,
+    "problem": "In triangle ABC, angle A = 40° and angle B = 75°. Find angle C and classify the triangle.",
+    "correct_answer": "Angle C = 65°; the triangle is acute",
+    "solution_steps": ["C = 180 - 40 - 75 = 65°", "All angles < 90°, so it's acute"],
+    "common_misconceptions": [
+      {"error": "C = 115°", "explanation": "Subtracting only one angle from 180"},
+      {"error": "Right triangle", "explanation": "Confusing acute with right"}
+    ],
+    "scaffolding_hints": [
+      "What do all angles in a triangle sum to?",
+      "Is any angle ≥ 90°?"
+    ],
+    "prerequisite_knowledge": ["triangle_angle_sum", "triangle_classification"]
+  },
+  {
+    "id": "math-geo-003",
+    "subject": "math",
+    "topic": "geometry",
+    "subtopic": "area_perimeter",
+    "difficulty": 2,
+    "problem": "Find the area of a trapezoid with parallel sides 8 cm and 12 cm, and height 5 cm.",
+    "correct_answer": "50 cm²",
+    "solution_steps": ["A = ½(b₁ + b₂)h", "A = ½(8 + 12)(5)", "A = ½(20)(5) = 50 cm²"],
+    "common_misconceptions": [
+      {"error": "96 cm²", "explanation": "Using A = b₁ · b₂ instead of trapezoid formula"},
+      {"error": "40 cm²", "explanation": "Using only one base: 8 × 5"}
+    ],
+    "scaffolding_hints": [
+      "What is the formula for the area of a trapezoid?",
+      "You need both parallel sides (bases) and the height."
+    ],
+    "prerequisite_knowledge": ["trapezoid_area_formula"]
+  },
+  {
+    "id": "math-geo-004",
+    "subject": "math",
+    "topic": "geometry",
+    "subtopic": "circles",
+    "difficulty": 2,
+    "problem": "A circle has a radius of 7 cm. Find its circumference and area.",
+    "correct_answer": "Circumference = 14π ≈ 43.98 cm; Area = 49π ≈ 153.94 cm²",
+    "solution_steps": ["C = 2πr = 2π(7) = 14π", "A = πr² = π(49) = 49π"],
+    "common_misconceptions": [
+      {"error": "A = 14π", "explanation": "Using the circumference formula for area"},
+      {"error": "C = 49π", "explanation": "Using the area formula for circumference"}
+    ],
+    "scaffolding_hints": [
+      "Circumference = 2πr, Area = πr². Which uses r and which uses r²?"
+    ],
+    "prerequisite_knowledge": ["circle_formulas"]
+  },
+  {
+    "id": "math-geo-005",
+    "subject": "math",
+    "topic": "geometry",
+    "subtopic": "similar_triangles",
+    "difficulty": 3,
+    "problem": "Triangles ABC and DEF are similar. AB=6, BC=8, AC=10, DE=9. Find EF and DF.",
+    "correct_answer": "EF = 12, DF = 15",
+    "solution_steps": ["Scale factor = DE/AB = 9/6 = 3/2", "EF = BC × 3/2 = 8 × 3/2 = 12", "DF = AC × 3/2 = 10 × 3/2 = 15"],
+    "common_misconceptions": [
+      {"error": "EF = 11, DF = 13", "explanation": "Adding 3 instead of multiplying by 3/2"},
+      {"error": "EF = 5.33", "explanation": "Dividing instead of multiplying by the scale factor"}
+    ],
+    "scaffolding_hints": [
+      "Find the scale factor by comparing corresponding sides.",
+      "Multiply each side of the smaller triangle by the scale factor."
+    ],
+    "prerequisite_knowledge": ["similar_triangles", "proportions"]
+  },
+  {
+    "id": "math-geo-006",
+    "subject": "math",
+    "topic": "geometry",
+    "subtopic": "coordinate_geometry",
+    "difficulty": 2,
+    "problem": "Find the distance between points (1, 2) and (4, 6).",
+    "correct_answer": "5",
+    "solution_steps": ["d = √((4-1)² + (6-2)²)", "d = √(9 + 16)", "d = √25 = 5"],
+    "common_misconceptions": [
+      {"error": "7", "explanation": "Adding the differences: 3 + 4 instead of using distance formula"},
+      {"error": "√7", "explanation": "Forgetting to square the differences"}
+    ],
+    "scaffolding_hints": [
+      "Use the distance formula: d = √((x₂-x₁)² + (y₂-y₁)²)",
+      "What are x₂-x₁ and y₂-y₁?"
+    ],
+    "prerequisite_knowledge": ["distance_formula", "pythagorean_theorem"]
+  },
+  {
+    "id": "math-geo-007",
+    "subject": "math",
+    "topic": "geometry",
+    "subtopic": "volume",
+    "difficulty": 2,
+    "problem": "Find the volume of a cylinder with radius 3 cm and height 10 cm.",
+    "correct_answer": "90π ≈ 282.74 cm³",
+    "solution_steps": ["V = πr²h", "V = π(9)(10)", "V = 90π ≈ 282.74 cm³"],
+    "common_misconceptions": [
+      {"error": "30π", "explanation": "Using V = πrh instead of πr²h"},
+      {"error": "60π", "explanation": "Using V = 2πrh (surface area formula confusion)"}
+    ],
+    "scaffolding_hints": [
+      "Volume of a cylinder = πr²h. What's the base area?",
+      "The base is a circle with area πr²."
+    ],
+    "prerequisite_knowledge": ["cylinder_volume", "circle_area"]
+  },
+  {
+    "id": "math-geo-008",
+    "subject": "math",
+    "topic": "geometry",
+    "subtopic": "transformations",
+    "difficulty": 3,
+    "problem": "Triangle with vertices A(1,1), B(3,1), C(2,4) is reflected over the y-axis. Find the new vertices.",
+    "correct_answer": "A'(-1,1), B'(-3,1), C'(-2,4)",
+    "solution_steps": ["Reflection over y-axis: (x,y) → (-x,y)", "A(1,1) → A'(-1,1)", "B(3,1) → B'(-3,1)", "C(2,4) → C'(-2,4)"],
+    "common_misconceptions": [
+      {"error": "A'(1,-1), B'(3,-1), C'(2,-4)", "explanation": "Reflecting over x-axis instead of y-axis"},
+      {"error": "A'(-1,-1)", "explanation": "Negating both coordinates (rotation, not reflection)"}
+    ],
+    "scaffolding_hints": [
+      "For reflection over the y-axis, which coordinate changes sign?",
+      "Only the x-coordinate is negated."
+    ],
+    "prerequisite_knowledge": ["reflections", "coordinate_plane"]
+  },
+  {
+    "id": "math-calc-001",
+    "subject": "math",
+    "topic": "calculus",
+    "subtopic": "limits",
+    "difficulty": 2,
+    "problem": "Find: lim(x→2) (x² - 4)/(x - 2)",
+    "correct_answer": "4",
+    "solution_steps": ["Factor numerator: (x-2)(x+2)/(x-2)", "Cancel (x-2): x+2", "Substitute x=2: 2+2 = 4"],
+    "common_misconceptions": [
+      {"error": "undefined", "explanation": "Plugging in directly and getting 0/0 without simplifying"},
+      {"error": "0", "explanation": "Thinking 0/0 = 0"}
+    ],
+    "scaffolding_hints": [
+      "What happens when you plug in x=2 directly?",
+      "Can you factor x² - 4?",
+      "After canceling, evaluate the simplified expression at x=2."
+    ],
+    "prerequisite_knowledge": ["limits", "factoring", "difference_of_squares"]
+  },
+  {
+    "id": "math-calc-002",
+    "subject": "math",
+    "topic": "calculus",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "problem": "Find the derivative of f(x) = 3x⁴ - 2x² + 7x - 1",
+    "correct_answer": "f'(x) = 12x³ - 4x + 7",
+    "solution_steps": ["d/dx(3x⁴) = 12x³", "d/dx(-2x²) = -4x", "d/dx(7x) = 7", "d/dx(-1) = 0", "f'(x) = 12x³ - 4x + 7"],
+    "common_misconceptions": [
+      {"error": "12x³ - 4x + 7 - 1", "explanation": "Forgetting that derivative of a constant is 0"},
+      {"error": "12x⁴ - 4x² + 7x", "explanation": "Not reducing the exponent"}
+    ],
+    "scaffolding_hints": [
+      "Apply the power rule to each term: d/dx(xⁿ) = nxⁿ⁻¹",
+      "What's the derivative of a constant?"
+    ],
+    "prerequisite_knowledge": ["power_rule", "derivative_basics"]
+  },
+  {
+    "id": "math-calc-003",
+    "subject": "math",
+    "topic": "calculus",
+    "subtopic": "derivatives",
+    "difficulty": 3,
+    "problem": "Find the derivative of f(x) = sin(x²) using the chain rule.",
+    "correct_answer": "f'(x) = 2x·cos(x²)",
+    "solution_steps": ["Outer function: sin(u), inner: u = x²", "d/dx[sin(u)] = cos(u) · du/dx", "= cos(x²) · 2x", "= 2x·cos(x²)"],
+    "common_misconceptions": [
+      {"error": "cos(x²)", "explanation": "Forgetting the chain rule (not multiplying by inner derivative)"},
+      {"error": "2x·cos(2x)", "explanation": "Differentiating inside the cosine as well"}
+    ],
+    "scaffolding_hints": [
+      "Identify the outer and inner functions.",
+      "What's the derivative of the outer function?",
+      "Don't forget to multiply by the derivative of the inner function."
+    ],
+    "prerequisite_knowledge": ["chain_rule", "trig_derivatives"]
+  },
+  {
+    "id": "math-calc-004",
+    "subject": "math",
+    "topic": "calculus",
+    "subtopic": "integrals",
+    "difficulty": 2,
+    "problem": "Evaluate: ∫(2x + 3)dx",
+    "correct_answer": "x² + 3x + C",
+    "solution_steps": ["∫2x dx = x²", "∫3 dx = 3x", "Result: x² + 3x + C"],
+    "common_misconceptions": [
+      {"error": "x² + 3x", "explanation": "Forgetting the constant of integration C"},
+      {"error": "2x² + 3x + C", "explanation": "Not applying the power rule correctly for ∫2x dx"}
+    ],
+    "scaffolding_hints": [
+      "Integrate each term separately.",
+      "For ∫xⁿ dx, the result is xⁿ⁺¹/(n+1).",
+      "Don't forget the constant of integration!"
+    ],
+    "prerequisite_knowledge": ["antiderivatives", "power_rule_integration"]
+  },
+  {
+    "id": "math-calc-005",
+    "subject": "math",
+    "topic": "calculus",
+    "subtopic": "integrals",
+    "difficulty": 3,
+    "problem": "Evaluate the definite integral: ∫₀² (3x² - 2x + 1) dx",
+    "correct_answer": "6",
+    "solution_steps": ["Antiderivative: x³ - x² + x", "F(2) = 8 - 4 + 2 = 6", "F(0) = 0", "F(2) - F(0) = 6"],
+    "common_misconceptions": [
+      {"error": "6 + C", "explanation": "Adding constant of integration to a definite integral"},
+      {"error": "10", "explanation": "Evaluating only at the upper bound without subtracting F(0)"}
+    ],
+    "scaffolding_hints": [
+      "First find the antiderivative.",
+      "Then apply the Fundamental Theorem: F(b) - F(a)."
+    ],
+    "prerequisite_knowledge": ["definite_integrals", "fundamental_theorem_of_calculus"]
+  },
+  {
+    "id": "math-calc-006",
+    "subject": "math",
+    "topic": "calculus",
+    "subtopic": "applications",
+    "difficulty": 3,
+    "problem": "Find the local maxima and minima of f(x) = x³ - 3x + 2.",
+    "correct_answer": "Local max at x=-1, f(-1)=4; local min at x=1, f(1)=0",
+    "solution_steps": ["f'(x) = 3x² - 3 = 0", "x² = 1, x = ±1", "f''(x) = 6x", "f''(-1) = -6 < 0 → local max", "f''(1) = 6 > 0 → local min", "f(-1) = -1+3+2 = 4", "f(1) = 1-3+2 = 0"],
+    "common_misconceptions": [
+      {"error": "Max at x=1, min at x=-1", "explanation": "Confusing second derivative test signs"},
+      {"error": "Only one critical point", "explanation": "Forgetting x = -1 solution"}
+    ],
+    "scaffolding_hints": [
+      "Set f'(x) = 0 to find critical points.",
+      "Use the second derivative test to classify each.",
+      "f''(x) > 0 means concave up (local min)."
+    ],
+    "prerequisite_knowledge": ["critical_points", "second_derivative_test"]
+  },
+  {
+    "id": "math-calc-007",
+    "subject": "math",
+    "topic": "calculus",
+    "subtopic": "limits",
+    "difficulty": 3,
+    "problem": "Find: lim(x→∞) (3x² + 2x)/(x² - 1)",
+    "correct_answer": "3",
+    "solution_steps": ["Divide numerator and denominator by x²", "(3 + 2/x)/(1 - 1/x²)", "As x→∞, 2/x→0 and 1/x²→0", "Limit = 3/1 = 3"],
+    "common_misconceptions": [
+      {"error": "∞", "explanation": "Thinking both top and bottom go to infinity so result is infinity"},
+      {"error": "0", "explanation": "Thinking the limit at infinity is always 0"}
+    ],
+    "scaffolding_hints": [
+      "What are the degrees of the numerator and denominator?",
+      "When degrees are equal, the limit is the ratio of leading coefficients."
+    ],
+    "prerequisite_knowledge": ["limits_at_infinity", "rational_functions"]
+  },
+  {
+    "id": "math-calc-008",
+    "subject": "math",
+    "topic": "calculus",
+    "subtopic": "derivatives",
+    "difficulty": 3,
+    "problem": "Find dy/dx if y = e^(2x) · ln(x)",
+    "correct_answer": "dy/dx = e^(2x)(2ln(x) + 1/x)",
+    "solution_steps": ["Product rule: (uv)' = u'v + uv'", "u = e^(2x), u' = 2e^(2x)", "v = ln(x), v' = 1/x", "dy/dx = 2e^(2x)·ln(x) + e^(2x)·(1/x)", "= e^(2x)(2ln(x) + 1/x)"],
+    "common_misconceptions": [
+      {"error": "2e^(2x)/x", "explanation": "Multiplying derivatives instead of using product rule"},
+      {"error": "e^(2x)(2ln(x))", "explanation": "Forgetting the second term of the product rule"}
+    ],
+    "scaffolding_hints": [
+      "This is a product of two functions. What rule applies?",
+      "What are the derivatives of e^(2x) and ln(x) separately?"
+    ],
+    "prerequisite_knowledge": ["product_rule", "chain_rule", "exponential_derivatives", "logarithmic_derivatives"]
+  },
+  {
+    "id": "math-calc-009",
+    "subject": "math",
+    "topic": "calculus",
+    "subtopic": "applications",
+    "difficulty": 4,
+    "problem": "A box with no top is made from a 12×12 sheet by cutting squares of side x from each corner. Find x that maximizes volume.",
+    "correct_answer": "x = 2",
+    "solution_steps": ["V = x(12-2x)²", "V = x(144 - 48x + 4x²) = 4x³ - 48x² + 144x", "V' = 12x² - 96x + 144 = 0", "x² - 8x + 12 = 0", "(x-2)(x-6) = 0", "x=2 (x=6 gives zero volume)", "V(2) = 2·8² = 128"],
+    "common_misconceptions": [
+      {"error": "x = 6", "explanation": "Choosing the root that makes the box sides zero"},
+      {"error": "x = 3", "explanation": "Guessing the midpoint"}
+    ],
+    "scaffolding_hints": [
+      "Express the dimensions of the box in terms of x.",
+      "Write the volume function V(x).",
+      "Find critical points and check which gives a valid box."
+    ],
+    "prerequisite_knowledge": ["optimization", "critical_points", "domain_constraints"]
+  }
+]
